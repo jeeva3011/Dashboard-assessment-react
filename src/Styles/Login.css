@@ -1,0 +1,64 @@
+.login_header{
+    font-size: 32px;
+    color: #ffffff;
+}
+.login_main{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.login_form{
+    height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.form_input{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form_input input{
+    background-color: #030303;
+    border: #ffffff 1px solid;
+    border-radius: 8px;
+    width: 300px;
+    height: 25px;
+    color: #ffffff;
+}
+.form_input input::placeholder{
+    color:#ffffff;
+    font-size: 12px;
+    padding-left: 5px;
+}
+.form_button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    
+}
+.form_button span{
+    font-size: 12px;
+    cursor: pointer;
+}
+.form_button span:hover{
+    text-decoration: underline;
+}
+.singin_btn{
+    background-color: #6741D9;
+    color: #ffffff;
+    height: 32px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.singin_btn:hover,.singin_btn:active{
+    background-color: #F0C3F1;
+    color: #030303;
+    box-shadow: #f0c3f1eb, 2px 2px 10px 2px;
+}

@@ -1,0 +1,53 @@
+.admin_panel {
+  color: #ffffff;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.admin_header {
+  font-size: 32px;
+}
+.amount_input {
+  background-color: #030303;
+  border: #ffffff 1px solid;
+  border-radius: 5px;
+  color: #ffffff;
+}
+.amounts_order input {
+  background-color: #030303;
+  color: #ffffff;
+  border-radius: 5px;
+  width: 40px;
+  border: #ffffff 1px solid;
+}
+.amounts_order {
+  display: flex;
+  gap: 3px;
+  flex-wrap: wrap;
+}
+
+.content_order{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.dashboard{
+    width: 600px;
+}
+.save_btn{
+    background-color: #6741D9;
+    color: #ffffff;
+    height: 32px;
+    width: 100px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+.save_btn:hover,.save_btn:active{
+    background-color: #F0C3F1;
+    color: #030303;
+    box-shadow: #f0c3f1eb, 2px 2px 10px 2px;
+}
+
