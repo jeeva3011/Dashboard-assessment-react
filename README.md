@@ -1,6 +1,8 @@
 # View Demo App
 Aws hosted link
 http://react-assessment.s3-website.ap-south-1.amazonaws.com/login
+Username: DJ@4
+Password: Dhunjam@2023
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
